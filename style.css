@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+}
+table {
+  margin: 20px auto;
+}
+#employeesTable,
+#employeesAndPositionsTable {
+  border-collapse: collapse;
+  border: 2px solid #dbcdcd;
+}
+#employeesTable th,
+#employeesAndPositionsTable th {
+  background-color: #dbcdcd;
+}
+#employeesTable th,
+#employeesTable td,
+#employeesAndPositionsTable th,
+#employeesAndPositionsTable td {
+  border: 1px solid #dbcdcd;
+  padding: 8px;
+}
+#employeesAndPositionsTable {
+  min-height: 230px;
+  min-width: 300px;
+}
+button {
+  padding: 10px;
+  border: none;
+  background-color: #937a7a;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+}
+.hidden {
+  display: none;
+}
